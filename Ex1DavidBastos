@@ -1,0 +1,32 @@
+
+package mundo;
+import java.util.Scanner;
+import java.util.*;
+public class Ex1SeuNome {
+
+	private static final String Else = null;
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		
+		System.out.println("informe um numero");
+		float numero = input.nextFloat();
+		
+		
+
+				if (numero %2== 0) {
+					System.out.println("O numero � Par");
+				} else {
+					System.out.println("O numero � Impar");
+				}
+
+
+
+}
+}
+
+
+
+\\ Matricula 0050011100 David Bastos
