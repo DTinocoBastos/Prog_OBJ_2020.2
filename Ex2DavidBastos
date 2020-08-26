@@ -1,0 +1,27 @@
+package mundo;
+import java.util.Scanner;
+import java.util.*;
+public class Ex2SeuNome {
+
+	private static final String Else = null;
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("informe um numero para fazer a tabuada");
+		int  numero = input.nextInt();
+
+		   for(int i = 1;i<=10;i++)
+		   		{
+			   		System.out.println(numero+" x "+i+" = "+numero*i);
+		   		}
+		}
+		
+				
+
+
+
+}
+
+\\ matricula 0050011100 David Bastos
